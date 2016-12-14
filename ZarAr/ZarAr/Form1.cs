@@ -16,7 +16,14 @@ namespace ZarAr
         {
             InitializeComponent();
         }
+        int loop = 1;
+        private void rooldice()
+        {
 
+
+
+
+        }
         private void ZarAt()
         {
             Random rnd = new Random();
@@ -28,12 +35,20 @@ namespace ZarAr
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+           
             ZarAt();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+            
             ZarAt();
+            
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+          
         }
     }
 }
